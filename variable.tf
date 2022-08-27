@@ -1,7 +1,12 @@
-variable "vpc_id" {}
+variable "vpc_cidr" {}
 
-/*variable "instance1_id" {}
-variable "instance2_id" {}*/
-variable "subnet1" {}
+variable "public_cidrs" {
+  type = "list"
+}
 
-variable "subnet2" {}
+variable "private_cidrs" {
+  type = "list"
+}
+
+variable "transit_gateway" {}
+
