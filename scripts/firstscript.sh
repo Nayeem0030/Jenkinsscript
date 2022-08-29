@@ -1,2 +1,2 @@
-#!/bin/bash
-#echo welcome to Helloworld
+!/bin/bash
+echo welcome to Helloworld
